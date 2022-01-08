@@ -1,5 +1,6 @@
-import Projects from "./components/Projects.js";
 import React, { useState } from "react";
+
+import Projects from "./components/Projects.js";
 
 import raspberryPiCluster from "./img/raspberry-pi-cluster.png"
 import asteroids from "./img/asteroids.png"
