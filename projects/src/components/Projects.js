@@ -7,7 +7,7 @@ const Projects = ({ item }) => {
           src={item.image}
           alt={item.imageAlt}
           title={item.title}
-          width="100"
+          width="200"
           height="200"
         />
         <div className="project__content">
