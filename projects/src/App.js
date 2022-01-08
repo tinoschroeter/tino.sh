@@ -26,20 +26,20 @@ const App = () => {
       technology: "[Node.js]"
     },
     {
-      title: "Dotfiles",
-      link: "https://github.com/tinoschroeter/dotfiles#readme",
-      image: dotfiles,
-      imageAlt: "Dotfiles Logo",
-      text: "My dotfiles and Ansible Playbooks to setup my Personal PC and Laptop.",
-      technology: "[Ansible]"
-    },
-    {
       title: "Bash on Steroids",
       link: "https://github.com/tinoschroeter/bash_on_steroids#readme",
       image: bos,
       imageAlt: "Bash on Steroids Logo",
       text: "Use Bash to write beautiful web apps in CGI Style.",
       technology: "[Bash]"
+    },
+    {
+      title: "Dotfiles",
+      link: "https://github.com/tinoschroeter/dotfiles#readme",
+      image: dotfiles,
+      imageAlt: "Dotfiles Logo",
+      text: "My dotfiles and Ansible Playbooks to setup my Personal PC and Laptop.",
+      technology: "[Ansible]"
     },
     {
       title: "Asteroids",
@@ -50,12 +50,12 @@ const App = () => {
       technology: "[JavaScript]"
     },
     {
-      title: "Zabbix Monitor",
-      link: "https://github.com/tinoschroeter/zabbix_monitor#readme",
-      image: zabbix,
-      imageAlt: "Zabbix Monitor Logo",
-      text: "Show all your Zabbix alerts in one place.",
-      technology: "[Bash]"
+      title: "Translate",
+      link: "https://github.com/tinoschroeter/translate#readme",
+      image: translate,
+      imageAlt: "Translate Logo",
+      text: "Tranlate direct in your Terminal.",
+      technology: "[Node.js]"
     },
     {
       title: "BeerCount",
@@ -64,14 +64,6 @@ const App = () => {
       imageAlt: "beerCount Logo",
       text: "Count your beers",
       technology: "[React]"
-    },
-    {
-      title: "MigrateV",
-      link: "https://github.com/tinoschroeter/migrateV#readme",
-      image: migrateV,
-      imageAlt: "MigrateV Logo",
-      text: "Migrate Virtual Server from one Hypervisor to another one.",
-      technology: "[Bash]"
     },
     {
       title: "Fastly Top Monitor",
@@ -106,12 +98,20 @@ const App = () => {
       technology: "[Next.js]"
     },
     {
-      title: "Translate",
-      link: "https://github.com/tinoschroeter/translate#readme",
-      image: translate,
-      imageAlt: "Translate Logo",
-      text: "Tranlate direct in your Terminal.",
-      technology: "[Node.js]"
+      title: "MigrateV",
+      link: "https://github.com/tinoschroeter/migrateV#readme",
+      image: migrateV,
+      imageAlt: "MigrateV Logo",
+      text: "Migrate Virtual Server from one Hypervisor to another one.",
+      technology: "[Bash]"
+    },
+    {
+      title: "Zabbix Monitor",
+      link: "https://github.com/tinoschroeter/zabbix_monitor#readme",
+      image: zabbix,
+      imageAlt: "Zabbix Monitor Logo",
+      text: "Show all your Zabbix alerts in one place.",
+      technology: "[Bash]"
     },
   ]);
 

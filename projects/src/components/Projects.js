@@ -1,5 +1,4 @@
 const Projects = ({ item }) => {
-  console.log(item)
   return (
     <li className="project">
       <a href={item.link} target="_blank" rel="noopener noreferrer">
