@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/tinoschroeter/tino.sh/master/docs/task.svg" width="92px"/>
+# tino.sh
 
 [![Build Status](https://jenkins.tino.sh/buildStatus/icon?job=tino.sh%2Fmaster)](https://jenkins.tino.sh/job/tino.sh/job/master/)
 [![GitHub Super-Linter](https://github.com/tinoschroeter/beerCount/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/tinoschroeter/tino.sh/actions/workflows/linter.yml)
