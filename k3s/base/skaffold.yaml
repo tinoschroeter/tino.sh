@@ -1,0 +1,15 @@
+---
+apiVersion: skaffold/v1
+kind: Config
+build:
+  artifacts:
+  - image: registry.tino.sh/tino-main
+    context: ../../
+    docker:
+      target: main
+  - image: registry.tino.sh/tino-projects
+    context: ../../
+    docker:
+      target: projects
+deploy:
+  kustomize: {}

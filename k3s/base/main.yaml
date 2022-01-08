@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: tino-main
+  name: tino-main
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: tino-main
+  template:
+    metadata:
+      labels:
+        app: tino-main
+    spec:
+      containers:
+      - name: tino-main
+        image: registry.tino.sh/tino-main
+        resources:
+          requests:
+            memory: "50Mi"
+            cpu: "30m"
+          limits:
+            memory: "64Mi"
+            cpu: "100m"
+      nodeSelector:
+        arch: arm64
