@@ -7,7 +7,7 @@ COPY projects .
 RUN npm install && \
     npm run build
 
-# projects
+# /projects
 FROM nginx:1.21.5-alpine AS projects
 
 WORKDIR /usr/share/nginx/html
@@ -20,3 +20,10 @@ FROM nginx:1.21.5-alpine AS main
 WORKDIR /usr/share/nginx/html
 COPY main/nginx.conf /etc/nginx/conf.d/default.conf
 COPY main .
+
+# /roeter
+FROM nginx:1.21.5-alpine AS roeter
+
+WORKDIR /usr/share/nginx/html
+COPY main/nginx.conf /etc/nginx/conf.d/default.conf
+COPY roeter .

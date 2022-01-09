@@ -29,6 +29,16 @@ spec:
             name: tino-projects-service
             port: 
               number: 7777
+  - host: tino.sh
+    http:
+      paths:
+      - pathType: Prefix
+        path: /roeter
+        backend:
+          service:
+            name: tino-roeter-service
+            port: 
+              number: 7777
   tls:
   - hosts:
     - tino.sh

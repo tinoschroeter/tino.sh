@@ -4,3 +4,4 @@ resources:
   - services.yaml
   - main.yaml
   - projects.yaml
+  - roeter.yaml

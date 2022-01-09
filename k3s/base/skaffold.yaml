@@ -11,5 +11,9 @@ build:
     context: ../../
     docker:
       target: projects
+  - image: registry.tino.sh/tino-roeter
+    context: ../../
+    docker:
+      target: roeter
 deploy:
   kustomize: {}

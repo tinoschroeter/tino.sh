@@ -21,3 +21,15 @@ spec:
   ports:
     - port: 7777
       targetPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tino-roeter-service
+  namespace: tino-sh
+spec:
+  selector:
+    app: tino-roeter
+  ports:
+    - port: 7777
+      targetPort: 80

@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: tino-roeter
+  name: tino-roeter
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: tino-roeter
+  template:
+    metadata:
+      labels:
+        app: tino-roeter
+    spec:
+      containers:
+      - name: tino-roeter
+        image: registry.tino.sh/tino-roeter
+        resources:
+          requests:
+            memory: "50Mi"
+            cpu: "30m"
+          limits:
+            memory: "64Mi"
+            cpu: "100m"
+      nodeSelector:
+        arch: arm64
