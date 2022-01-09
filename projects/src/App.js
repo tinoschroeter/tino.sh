@@ -126,7 +126,7 @@ const App = () => {
       <section className="center">
         <div margin-bottom="0.5rem">
           See more of my projects and code{" "}
-          <a href="https://github.com/tinoschroeter">on Github.</a>
+          <a href="https://github.com/tinoschroeter?tab=repositories">on Github.</a>
         </div>
       </section>
     </main>

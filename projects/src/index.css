@@ -2,7 +2,7 @@
 body {
   border-top: 13px solid black;
   font-family: "Inconsolata", monospace;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 1.3em;
   padding: 0;
   margin: 0;
@@ -20,7 +20,7 @@ img {
      see: http://stackoverflow.com/a/33132624/1154642
   */
   padding: 0.1px;
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;
   line-height: 1.5; /* designed to be inherited by all page-content. */
 }
@@ -38,7 +38,7 @@ img {
   margin: 0;
   display: grid;
   justify-content: center;
-  grid-template-columns: repeat(auto-fill, 200px);
+  grid-template-columns: repeat(auto-fill, 250px);
   grid-auto-rows: min-content;
   column-gap: 30px;
   row-gap: 30px;

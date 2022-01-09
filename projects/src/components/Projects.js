@@ -6,8 +6,8 @@ const Projects = ({ item }) => {
           src={item.image}
           alt={item.imageAlt}
           title={item.title}
-          width="200"
-          height="200"
+          width="250"
+          height="250"
         />
         <div className="project__content">
           <h2 className="no-anchor">{item.title}:</h2>
