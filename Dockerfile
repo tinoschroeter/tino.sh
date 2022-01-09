@@ -25,5 +25,5 @@ COPY main .
 FROM nginx:1.21.5-alpine AS roeter
 
 WORKDIR /usr/share/nginx/html
-COPY main/nginx.conf /etc/nginx/conf.d/default.conf
+COPY roeter/nginx.conf /etc/nginx/conf.d/default.conf
 COPY roeter .
