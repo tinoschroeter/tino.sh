@@ -23,7 +23,7 @@ const App = () => {
       image: raspberryPiCluster,
       imageAlt: "Kubernetes Homelab Logo",
       text: "Kubernetes home-lab built with 4 Raspberry Pi's.",
-      technology: "[Node.js]"
+      technology: "[Node.js, yaml, skaffold]"
     },
     {
       title: "Bash on Steroids",
@@ -79,7 +79,7 @@ const App = () => {
       image: regen,
       imageAlt: "Regen Logo",
       text: "Very basic Node.js app running on Cloud Run and tell me if it's rainy outside.",
-      technology: "[Node.js]"
+      technology: "[Node.js, express]"
     },
     {
       title: "mittag.essen",
@@ -103,7 +103,7 @@ const App = () => {
       image: migrateV,
       imageAlt: "MigrateV Logo",
       text: "Migrate Virtual Server from one Hypervisor to another one.",
-      technology: "[Bash]"
+      technology: "[Bash, rsync]"
     },
     {
       title: "Zabbix Monitor",
@@ -111,7 +111,7 @@ const App = () => {
       image: zabbix,
       imageAlt: "Zabbix Monitor Logo",
       text: "Show all your Zabbix alerts in one place.",
-      technology: "[Bash]"
+      technology: "[Bash, Python]"
     },
   ]);
 
