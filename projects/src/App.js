@@ -10,10 +10,13 @@ import dotfiles from "./img/dotfiles.png"
 import migrateV from "./img/migrateV.png"
 import mittag from "./img/mittag.png"
 import regen from "./img/regen.png"
+import cicd from "./img/cicd.png"
 import translate from "./img/translate.png"
 import kino from "./img/kino.png"
 import fastly_top from "./img/fastly_top.png"
 import zabbix from "./img/zabbix.png"
+import monero from "./img/monero.png"
+import alerter from "./img/alerter.png"
 
 const App = () => {
   const [projects, setProjects] = useState([
@@ -50,6 +53,22 @@ const App = () => {
       technology: "[JavaScript]"
     },
     {
+      title: "Monero",
+      link: "https://github.com/tinoschroeter/monero#readme",
+      image: monero,
+      imageAlt: "Monero Logo",
+      text: "Crypto Mining on Kubernetes running on Rasperry Pi.",
+      technology: "[Node.js]"
+    },
+    {
+      title: "CI/CD",
+      link: "https://github.com/tinoschroeter/k8s.jenkins#jenkins-agent-case",
+      image: cicd,
+      imageAlt: "CI/CD Logo",
+      text: "My CI / CD solution built with Jenkins and Raspberry PI",
+      technology: "[Jenkins, 3D Printer]"
+    },
+    {
       title: "Translate",
       link: "https://github.com/tinoschroeter/translate#readme",
       image: translate,
@@ -80,6 +99,14 @@ const App = () => {
       imageAlt: "Regen Logo",
       text: "Very basic Node.js app running on Cloud Run and tell me if it's rainy outside.",
       technology: "[Node.js, express]"
+    },
+    {
+      title: "alerter",
+      link: "https://github.com/tinoschroeter/alerter#readme",
+      image: alerter,
+      imageAlt: "alerter Logo",
+      text: "Simple Dashboard for Prometheus Alertmanager.",
+      technology: "[Node.js]"
     },
     {
       title: "mittag.essen",

@@ -23,7 +23,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: /projects
+        path: /projects/
         backend:
           service:
             name: tino-projects-service
@@ -33,7 +33,7 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: /roeter
+        path: /roeter/
         backend:
           service:
             name: tino-roeter-service
