@@ -16,7 +16,7 @@ import kino from "./img/kino.png"
 import fastly_top from "./img/fastly_top.png"
 import zabbix from "./img/zabbix.png"
 import monero from "./img/monero.png"
-import alerter from "./img/alerter.png"
+import fish from "./img/fish.png"
 
 const App = () => {
   const [projects, setProjects] = useState([
@@ -101,12 +101,12 @@ const App = () => {
       technology: "[Node.js, express]"
     },
     {
-      title: "alerter",
-      link: "https://github.com/tinoschroeter/alerter#readme",
-      image: alerter,
-      imageAlt: "alerter Logo",
-      text: "Simple Dashboard for Prometheus Alertmanager.",
-      technology: "[Node.js]"
+      title: "Alexa Fish",
+      link: "https://www.facebook.com/100000770977610/videos/1520701691298849/",
+      image: fish,
+      imageAlt: "Fish Logo",
+      text: "Amazon Alexa speaking fish.",
+      technology: "[C++, Arduino]"
     },
     {
       title: "mittag.essen",
