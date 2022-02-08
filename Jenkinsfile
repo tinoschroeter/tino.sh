@@ -12,6 +12,7 @@ pipeline {
           anyOf {
             changeset "main/**"
             changeset "projects/**"
+            changeset "blog/**"
             changeset "Dockerfile"
             changeset "k3s/base/**"
             changeset "k3s/dev/**"
@@ -28,6 +29,7 @@ pipeline {
           anyOf {
             changeset "main/**"
             changeset "projects/**"
+            changeset "blog/**"
             changeset "Dockerfile"
             changeset "k3s/base/**"
             changeset "k3s/production/**"
