@@ -33,6 +33,16 @@ spec:
     http:
       paths:
       - pathType: Prefix
+        path: /blog/
+        backend:
+          service:
+            name: tino-blog-service
+            port: 
+              number: 7777
+  - host: tino.sh
+    http:
+      paths:
+      - pathType: Prefix
         path: /roeter/
         backend:
           service:

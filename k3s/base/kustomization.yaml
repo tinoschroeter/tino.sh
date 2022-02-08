@@ -3,5 +3,6 @@ resources:
   - 0.namespace.yaml
   - services.yaml
   - main.yaml
+  - blog.yaml
   - projects.yaml
   - roeter.yaml
