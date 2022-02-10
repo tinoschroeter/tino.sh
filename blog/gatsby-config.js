@@ -1,13 +1,14 @@
 module.exports = {
+  pathPrefix: `/blog`,
   siteMetadata: {
-    title: `Tino Schroeter Blog`,
+    title: `Tino's Blog`,
     author: {
       name: `Tino Schroter`,
     },
     siteUrl: `https://tino.sh/blog`,
-    pathPrefix: `/blog`,
     social: {
-      twitter: `tinoschroeter`
+      twitter: `tinoschroeter`,
+      github: `tinoschroeter`,
     },
   },
   plugins: [
@@ -74,15 +75,15 @@ module.exports = {
         feeds: [
           {
             serialize: ({ query: { site, allMarkdownRemark } }) => {
-              return allMarkdownRemark.nodes.map(node => {
+              return allMarkdownRemark.nodes.map((node) => {
                 return Object.assign({}, node.frontmatter, {
                   description: node.excerpt,
                   date: node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + node.fields.slug,
                   guid: site.siteMetadata.siteUrl + node.fields.slug,
                   custom_elements: [{ "content:encoded": node.html }],
-                })
-              })
+                });
+              });
             },
             query: `
               {
@@ -104,7 +105,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Tino's Blog RSS Feed",
           },
         ],
       },
@@ -128,4 +129,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
