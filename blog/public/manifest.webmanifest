@@ -1,7 +1,7 @@
 {
   "name": "Gatsby Starter Blog",
   "short_name": "GatsbyJS",
-  "start_url": "/",
+  "start_url": "/blog",
   "background_color": "#ffffff",
   "display": "minimal-ui",
   "icons": [

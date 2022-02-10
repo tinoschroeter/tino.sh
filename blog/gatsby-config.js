@@ -5,6 +5,7 @@ module.exports = {
       name: `Tino Schroter`,
     },
     siteUrl: `https://tino.sh/blog`,
+    pathPrefix: `/blog`,
     social: {
       twitter: `tinoschroeter`
     },
@@ -113,7 +114,7 @@ module.exports = {
       options: {
         name: `Gatsby Starter Blog`,
         short_name: `GatsbyJS`,
-        start_url: `/`,
+        start_url: `/blog`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
