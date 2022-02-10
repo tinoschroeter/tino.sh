@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./index.css";
 // https://codepen.io/slyka85/pen/LbXYKQ
 
 const Menu = ({ color }) => {
