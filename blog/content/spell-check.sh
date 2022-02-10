@@ -10,7 +10,7 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-for f in blog/content/blog/*/*.md; do
+for f in blog/*/*.md; do
 	aspell --home-dir=. check -d "$1" "$f"
 done
 
