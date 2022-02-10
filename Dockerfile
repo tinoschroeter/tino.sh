@@ -11,7 +11,7 @@ WORKDIR /srv
 COPY blog .
 
 RUN npm install
-RUN npm run build --prefix-paths
+RUN npm run build
 
 # /blog
 FROM nginx:1.21.5-alpine AS blog
@@ -19,7 +19,6 @@ FROM nginx:1.21.5-alpine AS blog
 WORKDIR /usr/share/nginx/html
 
 COPY --from=blog-builder /srv/public .
-#COPY blog/public .
 COPY blog/nginx.conf /etc/nginx/conf.d/default.conf
 
 # /project builder 
