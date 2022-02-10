@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent { node { label 'pi4' } }
   stages {
       stage('Linting') {
           steps {

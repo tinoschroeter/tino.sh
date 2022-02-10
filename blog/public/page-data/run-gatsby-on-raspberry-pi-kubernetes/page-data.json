@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-templates-blog-post-js",
-    "path": "/run-gatsby-on-raspberry-pi-kubernetes/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Tino's Blog"}},"markdownRemark":{"id":"8a38c238-5e56-53dc-b3de-c92d87ffb08f","excerpt":"","html":"","frontmatter":{"title":"Run Gatsby on Raspberry Pi Kubernetes","date":"February 07, 2022","description":""}},"previous":{"fields":{"slug":"/hello-world/"},"frontmatter":{"title":"Hello World"}},"next":null},"pageContext":{"id":"8a38c238-5e56-53dc-b3de-c92d87ffb08f","previousPostId":"4c2acd16-a2cf-5877-b11e-7e26ac24eccc","nextPostId":null}},
-    "staticQueryHashes": ["2841359383","3257411868"]}

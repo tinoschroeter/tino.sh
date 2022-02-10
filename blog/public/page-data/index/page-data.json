@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-index-js",
-    "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Tino's Blog"}},"allMarkdownRemark":{"nodes":[{"excerpt":"","fields":{"slug":"/run-gatsby-on-raspberry-pi-kubernetes/"},"frontmatter":{"date":"February 07, 2022","title":"Run Gatsby on Raspberry Pi Kubernetes","description":""}},{"excerpt":"This is my first post on my new blog! How exciting! I’m sure I’ll write a lot more interesting things in the future. Oh, and here’s a great…","fields":{"slug":"/hello-world/"},"frontmatter":{"date":"February 01, 2022","title":"Hello World","description":"Hello World"}}]}},"pageContext":{}},
-    "staticQueryHashes": ["2841359383","3257411868"]}

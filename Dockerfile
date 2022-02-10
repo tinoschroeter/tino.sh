@@ -1,24 +1,24 @@
 # /blog builder 
-#FROM ubuntu:20.04 AS blog-builder
+FROM ubuntu:20.04 AS blog-builder
 
-#RUN apt-get update && apt-get install curl -y
-#RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
-#RUN apt-get install -y nodejs
+RUN apt-get update && apt-get install curl -y
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
+RUN apt-get install -y nodejs
 
-#WORKDIR /srv
+WORKDIR /srv
 
-#COPY blog .
+COPY blog .
 
-#RUN npm install
-#RUN npm run build --prefix-paths
+RUN npm install
+RUN npm run build --prefix-paths
 
 # /blog
 FROM nginx:1.21.5-alpine AS blog
 
 WORKDIR /usr/share/nginx/html
 
-#COPY --from=blog-builder /srv/public .
-COPY blog/public .
+COPY --from=blog-builder /srv/public .
+#COPY blog/public .
 COPY blog/nginx.conf /etc/nginx/conf.d/default.conf
 
 # /project builder 
