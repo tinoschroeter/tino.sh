@@ -147,7 +147,7 @@ const App = () => {
     <div>
       <Menu color="black" />
       <main className="page-content">
-        <h1 className="page-title">Projects</h1>
+        <h1 className="page-title">&#123; Projects &#125;</h1>
         <ul className="projects">
           {projects.map((item) => (
             <Projects key={item.title} item={item} />
