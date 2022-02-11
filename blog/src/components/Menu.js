@@ -18,9 +18,9 @@ const Menu = ({ color }) => {
     <div className="menu-container" onClick={menuHandler}>
       <div className="menu-wrapper">
         <div className={!menuOpen ? "hamburger-menu" : "hamburger-menu open"}>
-          <span style={{ backgroundColor: color }}></span>
-          <span style={{ backgroundColor: color }}></span>
-          <span style={{ backgroundColor: color }}></span>
+          <span style={{ backgroundColor: color }}>---</span>
+          <span style={{ backgroundColor: color }}>---</span>
+          <span style={{ backgroundColor: color }}>---</span>
         </div>
       </div>
       <ul
