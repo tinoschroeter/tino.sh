@@ -3,7 +3,6 @@
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "homepage": "/blog",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -25,7 +24,7 @@
     "gatsby-source-filesystem": "^4.6.0",
     "gatsby-transformer-remark": "^5.6.0",
     "gatsby-transformer-sharp": "^4.6.0",
-    "prismjs": "^1.25.0",
+    "prismjs": "^1.27.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
