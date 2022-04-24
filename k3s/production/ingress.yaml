@@ -17,7 +17,7 @@ spec:
         backend:
           service:
             name: tino-main-service
-            port: 
+            port:
               number: 7777
   - host: tino.sh
     http:
@@ -27,7 +27,7 @@ spec:
         backend:
           service:
             name: tino-projects-service
-            port: 
+            port:
               number: 7777
   - host: tino.sh
     http:
@@ -37,7 +37,7 @@ spec:
         backend:
           service:
             name: tino-blog-service
-            port: 
+            port:
               number: 7777
   - host: tino.sh
     http:
@@ -47,7 +47,7 @@ spec:
         backend:
           service:
             name: tino-roeter-service
-            port: 
+            port:
               number: 7777
   tls:
   - hosts:
