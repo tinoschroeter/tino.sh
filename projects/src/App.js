@@ -18,9 +18,18 @@ import fastly_top from "./img/fastly_top.png";
 import zabbix from "./img/zabbix.png";
 import monero from "./img/monero.png";
 import fish from "./img/fish.png";
+import spacePod from "./img/spacePod.png"
 
 const App = () => {
   const [projects] = useState([
+    {
+      title: "Space Pods",
+      link: "https://github.com/tinoschroeter/spacePods#readme",
+      image: spacePod,
+      imageAlt: "SpacePod Logo",
+      text: "Navigate a Spaceship through Kubernetes and shoot Pods",
+      technology: "[Node.js, JavaScript, Kubernetes]",
+    },
     {
       title: "Kubernetes Homelab",
       link: "https://github.com/tinoschroeter/k8s.homelab#readme",
