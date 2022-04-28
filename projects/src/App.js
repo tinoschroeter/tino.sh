@@ -18,7 +18,8 @@ import fastly_top from "./img/fastly_top.png";
 import zabbix from "./img/zabbix.png";
 import monero from "./img/monero.png";
 import fish from "./img/fish.png";
-import spacePod from "./img/spacePod.png"
+import geheim from "./img/geheim.png";
+import spacePod from "./img/spacePod.png";
 
 const App = () => {
   const [projects] = useState([
@@ -101,6 +102,14 @@ const App = () => {
       imageAlt: "Fastly Top MonitorLogo",
       text: "Show Fastly statistics in your Terminal.",
       technology: "[Bash]",
+    },
+    {
+      title: "Geheim",
+      link: "https://github.com/tinoschroeter/geheim#readme",
+      image: geheim,
+      imageAlt: "Geheim Logo",
+      text: "Secure exchange of passwords or other confidential information.",
+      technology: "[Node.js, ejs]",
     },
     {
       title: "Regen",
