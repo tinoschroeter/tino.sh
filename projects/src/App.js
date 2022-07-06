@@ -13,7 +13,6 @@ import mittag from "./img/mittag.png";
 import regen from "./img/regen.png";
 import cicd from "./img/cicd.png";
 import translate from "./img/translate.png";
-import kino from "./img/kino.png";
 import fastly_top from "./img/fastly_top.png";
 import zabbix from "./img/zabbix.png";
 import monero from "./img/monero.png";
@@ -134,14 +133,6 @@ const App = () => {
       imageAlt: "mittag.essen Logo",
       text: "Random Meal recommendation running on cli and built with React Ink.",
       technology: "[React]",
-    },
-    {
-      title: "Kino",
-      link: "https://github.com/tinoschroeter/kino#readme",
-      image: kino,
-      imageAlt: "Kino Logo",
-      text: "Find the best movies on Netflix, Prime and on Theater.",
-      technology: "[Next.js]",
     },
     {
       title: "MigrateV",
