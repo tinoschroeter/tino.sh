@@ -19,9 +19,6 @@ spec:
             name: tino-main-service
             port:
               number: 7777
-  - host: tino.sh
-    http:
-      paths:
       - pathType: Prefix
         path: /projects/
         backend:
@@ -29,9 +26,6 @@ spec:
             name: tino-projects-service
             port:
               number: 7777
-  - host: tino.sh
-    http:
-      paths:
       - pathType: Prefix
         path: /blog/
         backend:
@@ -39,9 +33,6 @@ spec:
             name: tino-blog-service
             port:
               number: 7777
-  - host: tino.sh
-    http:
-      paths:
       - pathType: Prefix
         path: /roeter/
         backend:
