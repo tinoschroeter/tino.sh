@@ -5,7 +5,7 @@ metadata:
     app: tino-main
   name: tino-main
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: tino-main

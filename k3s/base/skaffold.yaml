@@ -11,10 +11,10 @@ build:
     context: ../../
     docker:
       target: projects
-  - image: registry.tino.sh/tino-blog
-    context: ../../
-    docker:
-      target: blog
+#  - image: registry.tino.sh/tino-blog
+#    context: ../../
+#    docker:
+#      target: blog
   - image: registry.tino.sh/tino-roeter
     context: ../../
     docker:

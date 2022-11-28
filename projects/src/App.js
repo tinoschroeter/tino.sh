@@ -11,12 +11,16 @@ import dotfiles from "./img/dotfiles.png";
 import migrateV from "./img/migrateV.png";
 import mittag from "./img/mittag.png";
 import regen from "./img/regen.png";
+import podcast from "./img/podcast.png";
 import cicd from "./img/cicd.png";
 import translate from "./img/translate.png";
 import fastly_top from "./img/fastly_top.png";
 import zabbix from "./img/zabbix.png";
 import monero from "./img/monero.png";
+import wtr from "./img/wtr.png";
 import fish from "./img/fish.png";
+import breitbandmessung from "./img/breitbandmessung.png";
+import dyndns from "./img/dyndns.png";
 import geheim from "./img/geheim.png";
 import spacePod from "./img/spacePod.png";
 
@@ -60,7 +64,7 @@ const App = () => {
       image: asteroids,
       imageAlt: "Asteroids Logo",
       text: "Simple Webserver/Ingress visualization built in p5.js.",
-      technology: "[JavaScript]",
+      technology: "[JavaScript, p5.js]",
     },
     {
       title: "Monero",
@@ -68,6 +72,14 @@ const App = () => {
       image: monero,
       imageAlt: "Monero Logo",
       text: "Crypto Mining on Kubernetes running on Rasperry Pi.",
+      technology: "[Node.js]",
+    },
+    {
+      title: "wtr.tino.sh",
+      link: "https://github.com/tinoschroeter/wtr.tino.sh#readme",
+      image: wtr,
+      imageAlt: "wtr Logo",
+      text: "curl the weather",
       technology: "[Node.js]",
     },
     {
@@ -119,6 +131,14 @@ const App = () => {
       technology: "[Node.js, express]",
     },
     {
+      title: "Podcast",
+      link: "https://github.com/tinoschroeter/podcast#readme",
+      image: podcast,
+      imageAlt: "Podcast Logo",
+      text: "Download and listen to YouTube mp3 files.",
+      technology: "[Node.js, express]",
+    },
+    {
       title: "Alexa Fish",
       link: "https://www.facebook.com/100000770977610/videos/1520701691298849/",
       image: fish,
@@ -126,6 +146,22 @@ const App = () => {
       text: "Amazon Alexa speaking fish.",
       technology: "[C++, Arduino]",
     },
+    {
+      title: "DynDNS",
+      link: "https://github.com/tinoschroeter/DynDNS#readme",
+      image: dyndns,
+      imageAlt: "dynsna Logo",
+      text: "Update (Route53) DNS with my ISP dynamic IP address.",
+      technology: "[Nodejs]",
+    },
+    {
+      title: "Breitbandmessung",
+      link: "https://github.com/tinoschroeter/breitbandmessung#readme",
+      image: breitbandmessung,
+      imageAlt: "breitbandmessung Logo",
+      text: "Speedtest exporter for Prometheus.",
+      technology: "[Nodejs]",
+    }, 
     {
       title: "mittag.essen",
       link: "https://github.com/tinoschroeter/mittag.essen#readme",
