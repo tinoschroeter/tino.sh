@@ -1,5 +1,5 @@
 # /blog builder 
-FROM ubuntu:20.04 AS blog-builder
+FROM ubuntu:22.04 AS blog-builder
 
 RUN apt-get update && apt-get install curl -y
 
@@ -22,13 +22,13 @@ COPY --from=blog-builder /srv/public .
 COPY blog/nginx.conf /etc/nginx/conf.d/default.conf
 
 # /project builder 
-FROM node:16.2.0-stretch AS project-builder
+FROM node:22 AS project-builder
 
 WORKDIR /srv
 COPY projects .
 
 RUN npm install && \
-    npm run build
+  npm run build
 
 # /projects
 FROM nginx:1.21.5-alpine AS projects
